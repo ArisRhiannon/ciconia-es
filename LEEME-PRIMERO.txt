@@ -1,0 +1,42 @@
+==================================================================
+  PARCHE AL ESPANOL  --  Ciconia: Phase 1   (traduccion de fans)
+==================================================================
+
+COMO INSTALAR (3 pasos):
+
+  1) Abre  "Instalar-Parche-Ciconia-Phase1.exe"  (doble clic).
+
+       * Si Windows muestra "Windows protegio tu PC":
+         pulsa  "Mas informacion"  y luego  "Ejecutar de todas formas".
+         Es seguro: NO se modifica ningun archivo original del juego.
+
+  2) El programa busca tu juego automaticamente.
+     Si no lo encuentra, pulsa  "Buscar..."  y elige la carpeta del
+     juego (la que contiene el archivo  pscript.dat ).
+
+  3) Pulsa el boton verde  "Instalar parche al espanol".
+
+  Listo. Abre el juego normalmente y el texto estara en espanol.
+
+
+PARA QUITAR EL PARCHE (volver al idioma original):
+
+  Abre el programa otra vez y pulsa
+  "Restaurar original (desinstalar)".
+
+
+IMPORTANTE
+  - Necesitas tu propia copia LEGAL del juego (Steam, GOG, etc.).
+  - El parche NO modifica los archivos originales del juego: crea un
+    archivo de traduccion que el juego carga con prioridad, y se puede
+    revertir en cualquier momento.
+
+
+LICENCIAS Y CREDITOS
+  - Texto de la traduccion:  CC BY-NC-SA 4.0
+        (atribucion + no comercial + compartir-igual)
+  - Codigo del instalador:   AGPL-3.0-or-later
+  - Juego original: (c) 07th Expansion. Proyecto de fans NO oficial,
+    sin afiliacion ni respaldo de 07th Expansion.
+  - Mas detalles: archivos README.md y NOTICE.
+==================================================================

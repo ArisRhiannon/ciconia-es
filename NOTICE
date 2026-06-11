@@ -1,0 +1,55 @@
+CICONIA es-419 — AVISO DE AUTORÍA Y LICENCIAS (NOTICE)
+======================================================================
+
+Proyecto:   Traducción al español neutro (es-419) de "Ciconia no Naku Koro ni",
+            no oficial, hecha por y para la comunidad de fans.
+Autoría:    ArisRhiannon y colaboradores del proyecto Ciconia es-419.
+Repositorio: https://github.com/ArisRhiannon/ciconia-es419
+
+----------------------------------------------------------------------
+QUÉ ES CADA COSA Y BAJO QUÉ LICENCIA
+----------------------------------------------------------------------
+
+1) CÓDIGO (el parcheador, las herramientas, todos los archivos .py)
+   Licencia: GNU Affero General Public License v3.0 o posterior (AGPL-3.0-or-later).
+   Texto completo: archivo LICENSE.
+
+2) CONTENIDO DE LA TRADUCCIÓN (los segmentos en español dentro de
+   patches/<fase>/es_patch.json)
+   Licencia: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0).
+   Texto completo: archivo LICENSE.translation.
+   Atribución requerida: "Ciconia es-419 (ArisRhiannon) — traducción de fans".
+
+----------------------------------------------------------------------
+QUÉ **NO** PERTENECE A ESTE PROYECTO
+----------------------------------------------------------------------
+
+"Ciconia no Naku Koro ni", su guion, personajes, arte, audio y demás obra
+original son propiedad de 07th Expansion. Este proyecto NO está afiliado,
+patrocinado ni autorizado por 07th Expansion.
+
+Este repositorio NO contiene NINGÚN archivo ni texto original del juego:
+  - El parche (es_patch.json) solo almacena huellas criptográficas SHA-1
+    (irreversibles) de las líneas originales, más la traducción propia en
+    español. A partir de una huella NO se puede reconstruir el texto original.
+  - El parcheador NO incluye el juego. Lee la copia LEGAL del propio usuario,
+    genera localmente un archivo nuevo (0.utf) y NO modifica ningún archivo
+    original (pscript.dat queda intacto). El resultado es una OBRA DERIVADA
+    generada en el equipo del usuario.
+
+----------------------------------------------------------------------
+CONDICIONES DE REDISTRIBUCIÓN (resumen)
+----------------------------------------------------------------------
+
+  - Distribuye SOLO el parche y el código. NUNCA distribuyas archivos del juego.
+  - El texto de la traducción es de uso NO COMERCIAL (cláusula NC de CC BY-NC-SA 4.0).
+  - Conserva esta atribución y las licencias al redistribuir.
+  - Para usar el parche necesitas tu propia copia legal del juego.
+
+----------------------------------------------------------------------
+SIN GARANTÍA
+----------------------------------------------------------------------
+
+El software y el contenido se ofrecen "tal cual", sin garantía de ningún tipo,
+en la máxima medida permitida por la ley aplicable. Ver LICENSE y
+LICENSE.translation para los descargos completos.

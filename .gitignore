@@ -1,0 +1,46 @@
+# ---- NUNCA versionar archivos del juego original (copyright 07th Expansion) ----
+# Script original cifrado y descifrado:
+pscript.dat
+*.dat
+0.utf
+0.utf.orig
+0.utf.LICENSE.txt
+script.base.txt
+# Archivos comprimidos de assets del motor NScripter/PONScripter:
+*.nsa
+*.ns2
+*.sar
+# Multimedia del juego:
+*.ogg
+*.wav
+*.mp3
+*.png
+*.bmp
+*.jpg
+*.jpeg
+*.otf
+*.ttf
+# Ejecutables y binarios del juego:
+*.exe
+*.dll
+*.so
+*.app/
+# Unidades de traducción PRIVADAS (contienen el texto original EN/JP):
+units/
+source/
+*.es.json
+# ---- Temporales del proyecto ----
+_*.py
+_test_*
+*.tmp
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.venv/
+venv/
+# ---- Artefactos de PyInstaller (no versionar; el .exe va como asset del release) ----
+build/
+dist/
+release/
+*.spec

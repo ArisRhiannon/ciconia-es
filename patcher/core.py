@@ -141,15 +141,15 @@ def short_hash(text: str) -> str:
 # ---------------------------------------------------------------------------
 # Reescritura del título de la ventana (comando `caption "..."`)
 # ---------------------------------------------------------------------------
-# Solo líneas `caption "..."` ACTIVAS (las comentadas empiezan por ';' y NO casan).
-_CAPTION_RE = re.compile(r'^(?P<lead>[ \t]*)caption[ \t]+"(?P<title>(?:[^"\\]|\\.)*)"(?P<rest>.*)$')
+# Líneas `caption "..."` o `caption $var` ACTIVAS, opcionalmente precedidas por `if ... caption`.
+_CAPTION_RE = re.compile(r'^(?P<lead>.*\bcaption)[ \t]+(?P<arg>"(?:[^"\\]|\\.)*"|\$\w+)(?P<rest>[^"]*?)$')
 
 
 def rewrite_caption(text: str, new_title: str):
-    """Reemplaza el argumento de las líneas `caption "..."` activas por `new_title`.
+    """Reemplaza el argumento de las líneas `caption` activas por `new_title`.
 
-    Cambia SOLO el título de la ventana del 0.utf generado (obra derivada); no toca
-    `versionstr` (que conserva el crédito a 07th Expansion) ni nada del original.
+    Casa tanto `caption "texto"` como `caption $Variable`. Cambia SOLO el título
+    de la ventana del 0.utf generado (obra derivada); no toca `versionstr`.
     Devuelve (texto, nº de líneas caption reescritas). Si `new_title` contiene
     caracteres que romperían el comando (comilla, barra, salto de línea), no hace nada.
     """
@@ -158,8 +158,8 @@ def rewrite_caption(text: str, new_title: str):
     out, n = [], 0
     for line in text.split("\n"):
         m = _CAPTION_RE.match(line)
-        if m:  # `;caption ...` no casa (el ';' va antes de 'caption')
-            out.append('%scaption "%s"%s' % (m.group("lead"), new_title, m.group("rest")))
+        if m and not line.lstrip().startswith(";"):
+            out.append('%s "%s"%s' % (m.group("lead"), new_title, m.group("rest")))
             n += 1
         else:
             out.append(line)

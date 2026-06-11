@@ -160,13 +160,15 @@ class TestCaptionRewrite(unittest.TestCase):
     BASE = ('*define\n'
             ';caption "ORIGINAL JP"\n'
             'caption "\u30ad\u30b3\u30cb\u30a2 Phase1"\n'
+            'caption $Free1\n'
             'versionstr "X","created by 07th Expansion"\n'
             'game\n*start\nlangen^Hi^@\nreturn')
 
     def test_rewrites_only_active_caption(self):
         out, n = core.rewrite_caption(self.BASE, "Mi Título - Parche")
-        self.assertEqual(n, 1)
+        self.assertEqual(n, 2)
         self.assertIn('caption "Mi Título - Parche"', out)
+        self.assertNotIn('$Free1', out)
         self.assertIn(';caption "ORIGINAL JP"', out)          # comentada intacta
         self.assertIn('versionstr "X","created by 07th Expansion"', out)  # sin tocar
         self.assertNotIn('\u30ad\u30b3\u30cb\u30a2', out)     # título JP reemplazado

@@ -17,7 +17,7 @@ reclama nada del original. Tres mecanismos complementarios:
 final y no toca el cuerpo del script, para no romper el juego.
 """
 
-PROJECT_NAME = "Traducción es-419 de Ciconia no Naku Koro ni (no oficial, hecha por fans)"
+PROJECT_NAME = "Traducción es-419 de Ciconia no Naku Koro ni (no oficial, hecha por Aris Rhiannon)"
 PROJECT_URL = "https://github.com/ArisRhiannon/ciconia-es419"
 CODE_LICENSE = "AGPL-3.0-or-later"
 TRANSLATION_LICENSE = "CC BY-NC-SA 4.0"

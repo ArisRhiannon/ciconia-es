@@ -30,7 +30,7 @@ if not getattr(sys, "frozen", False):
 from patcher import installer, scan, stamp  # noqa: E402
 
 APP_TITLE = "Ciconia: Phase 1 — Parche al español (es-419)"
-SUBTITLE = "Traducción de fans · no oficial · solo texto"
+SUBTITLE = "Traducción por Aris Rhiannon · no oficial · solo texto"
 
 
 # ---------------------------------------------------------------------------

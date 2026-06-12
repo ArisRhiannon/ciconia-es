@@ -136,6 +136,14 @@ parche**, nunca los archivos del juego. Ver [`NOTICE`](NOTICE) para el detalle.
 ## Aviso legal
 
 *Ciconia no Naku Koro ni* y toda su obra original son propiedad de **07th Expansion**.
+
+## Agradecimientos
+
+- **Lambdadelta** — por el apoyo y la colaboración.
+- **[23rd District](https://23rddistrict.wordpress.com/)** — referencia invaluable para la comunidad de When They Cry en español.
+
+---
+
 Este es un proyecto de fans **no oficial**, sin afiliación ni respaldo de 07th
 Expansion. Una traducción es una obra derivada: el contenido en español es autoría de
 este proyecto, pero el uso y la distribución dependen, en última instancia, de los

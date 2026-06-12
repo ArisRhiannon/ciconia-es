@@ -7,6 +7,8 @@ No incluye —ni puede incluir— ningún archivo del juego original.
 > **Necesitas tu propia copia legal del juego** (Steam, GOG, etc.). El parche se
 > aplica sobre ella en tu equipo.
 
+![Screenshot del juego en español](assets/screenshot.jpg)
+
 ---
 
 ## Cómo funciona (y por qué es una obra derivada limpia)

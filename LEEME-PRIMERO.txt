@@ -25,6 +25,12 @@ PARA QUITAR EL PARCHE (volver al idioma original):
   "Restaurar original (desinstalar)".
 
 
+SOLO TEXTO (por ahora)
+  - Esta version traduce SOLO el texto. Las imagenes del juego (carteles,
+    texturas y graficos de la interfaz) se mantienen en su idioma original.
+  - Es una decision temporal; esta previsto traducirlas mas adelante.
+
+
 IMPORTANTE
   - Necesitas tu propia copia LEGAL del juego (Steam, GOG, etc.).
   - El parche NO modifica los archivos originales del juego: crea un

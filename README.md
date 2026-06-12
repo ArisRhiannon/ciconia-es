@@ -9,6 +9,12 @@ No incluye —ni puede incluir— ningún archivo del juego original.
 
 ![Screenshot del juego en español](assets/screenshot.jpg)
 
+> **Alcance — solo texto (por ahora):** esta versión traduce **únicamente el texto**.
+> Las **imágenes** del juego (carteles, texturas con texto, gráficos de la interfaz,
+> etc.) se mantienen en su **idioma original**. Es una decisión **temporal**: por ahora
+> prefiero no publicar imágenes editadas hasta poder hacerlas con la calidad que
+> merecen. Está previsto traducirlas en una actualización futura.
+
 ---
 
 ## Cómo funciona

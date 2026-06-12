@@ -139,7 +139,7 @@ parche**, nunca los archivos del juego. Ver [`NOTICE`](NOTICE) para el detalle.
 
 ## Agradecimientos
 
-- **Lambdadelta** — por el apoyo y la colaboración.
+- **[Lambdadelto](https://www.youtube.com/channel/UCCgK9pgiq0Bt73ESMjQfARg)** — por el apoyo y la colaboración.
 - **[23rd District](https://23rddistrict.wordpress.com/)** — referencia invaluable para la comunidad de When They Cry en español.
 
 ---

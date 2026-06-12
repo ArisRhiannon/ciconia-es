@@ -1,7 +1,7 @@
 # Ciconia es-419 — Parche de traducción al español (no oficial)
 
-Traducción al **español latinoamericano neutro (es-419)** de *Ciconia no Naku Koro ni*,
-hecha por fans. Este repositorio contiene **solo el parche de texto y el instalador**.
+Traducción al **español latinoamericano neutro (es-419)** de *Ciconia no Naku Koro ni*. 
+Este repositorio contiene **solo el parche de texto y el instalador**.
 No incluye —ni puede incluir— ningún archivo del juego original.
 
 > **Necesitas tu propia copia legal del juego** (Steam, GOG, etc.). El parche se

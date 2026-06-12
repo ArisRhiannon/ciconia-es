@@ -18,6 +18,8 @@ script.base.txt
 *.bmp
 *.jpg
 *.jpeg
+# Excepción: screenshots propios del proyecto
+!assets/screenshot.jpg
 *.otf
 *.ttf
 # Ejecutables y binarios del juego:

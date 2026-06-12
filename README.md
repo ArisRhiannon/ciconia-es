@@ -1,4 +1,4 @@
-# Ciconia es-419 — Parche de traducción al español (no oficial)
+# Ciconia es-419 — Parche de traducción al español
 
 Traducción al **español latinoamericano neutro (es-419)** de *Ciconia no Naku Koro ni*. 
 Este repositorio contiene **solo el parche de texto y el instalador**.
@@ -11,7 +11,7 @@ No incluye —ni puede incluir— ningún archivo del juego original.
 
 ---
 
-## Cómo funciona (y por qué es una obra derivada limpia)
+## Cómo funciona
 
 El motor del juego (PONScripter) carga un archivo `0.utf` **con prioridad** sobre el
 script original `pscript.dat`. Este instalador:
@@ -37,7 +37,7 @@ A partir de una huella es imposible reconstruir el texto original.
 
 ---
 
-## Instalación fácil (recomendada) — programa con ventana
+## Instalación fácil — programa con ventana
 
 **No necesitas saber de programación ni instalar Python.**
 
@@ -61,7 +61,7 @@ A partir de una huella es imposible reconstruir el texto original.
 
 ---
 
-## Instalación avanzada (consola / Python)
+## Instalación avanzada 
 
 Requisitos: **Python 3.8+** (no hace falta nada más; usa solo la librería estándar).
 

@@ -136,9 +136,10 @@ En concreto, el QA se usa para:
 - Detección de errores de código.
 - Detección de placeholders sin traducir.
 
-**Aviso:** una pasada del QA introdujo un error y alteró el género de algunas
-líneas de la traducción. Ya está mitigado, aunque sigo revisando en busca de
-instancias donde pueda quedar el daño.
+**Aviso:** versiones anteriores del QA introdujeron algunas inconsistencias puntuales
+al intentar unificar criterios: en la **concordancia de género** de ciertas líneas y en
+la **unificación de algunos términos**. Ya están identificadas y corregidas; aun así,
+sigo revisando el texto a fondo por si quedara algún caso residual.
 
 ---
 

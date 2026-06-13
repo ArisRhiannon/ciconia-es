@@ -1,5 +1,10 @@
 # Ciconia es-419 — Parche de traducción al español
 
+> **🔄 Actualiza si instalaste antes del 13 de junio de 2026.** Las versiones previas a
+> esa fecha tenían algunas inconsistencias introducidas por el control de calidad (género,
+> términos y comillas), **ya corregidas**. Descarga el instalador más reciente en
+> *Releases* y reinstala.
+
 Traducción al **español latinoamericano neutro (es-419)** de *Ciconia no Naku Koro ni*. 
 Este repositorio contiene **solo el parche de texto y el instalador**.
 No incluye —ni puede incluir— ningún archivo del juego original.

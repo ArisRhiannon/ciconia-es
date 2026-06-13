@@ -125,6 +125,23 @@ versión del parche.
 
 ---
 
+## Control de calidad (QA)
+
+La traducción pasa por una herramienta de QA propia para verificar su cohesión.
+En concreto, el QA se usa para:
+
+- Asistir con la cohesión de términos.
+- Identificación de typos y de errores graves de gramática y ortografía.
+- Detección de falta de caracteres.
+- Detección de errores de código.
+- Detección de placeholders sin traducir.
+
+**Aviso:** una pasada del QA introdujo un error y alteró el género de algunas
+líneas de la traducción. Ya está mitigado, aunque sigo revisando en busca de
+instancias donde pueda quedar el daño.
+
+---
+
 ## Licencias
 
 Este proyecto usa **doble licencia** según el tipo de material:

@@ -9,8 +9,8 @@
   "translated_lines": 16337,
   "langen_total": 16473,
   "coverage_pct": 99.2,
-  "hash_index_entries": 10440,
-  "hash_collisions_line_keyed": 64,
+  "hash_index_entries": 10441,
+  "hash_collisions_line_keyed": 63,
   "code_license": "AGPL-3.0-or-later",
   "translation_license": "CC BY-NC-SA 4.0"
 }

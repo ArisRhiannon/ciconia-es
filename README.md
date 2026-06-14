@@ -9,6 +9,9 @@ Traducción al **español latinoamericano neutro (es-419)** de *Ciconia no Naku 
 Este repositorio contiene **solo el parche de texto y el instalador**.
 No incluye —ni puede incluir— ningún archivo del juego original.
 
+> 🌐 **Página oficial del parche:** **<https://arisrhiannon.github.io/ciconia/>**
+> — descarga del instalador, guía de instalación paso a paso y novedades.
+
 > **Necesitas tu propia copia legal del juego** (Steam, GOG, etc.). El parche se
 > aplica sobre ella en tu equipo.
 
